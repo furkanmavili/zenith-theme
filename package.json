@@ -1,0 +1,22 @@
+{
+  "name": "zenith",
+  "displayName": "zenith",
+  "description": "Zenith Theme",
+  "version": "0.0.1",
+  "icon": "logo.jpeg",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zenith",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zenith-color-theme.json"
+      }
+    ]
+  }
+}
